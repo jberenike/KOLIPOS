@@ -69,65 +69,65 @@ Quantitative text analyses (possibly)
    - Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt (Agreement Phase I = 95,47 – 98,13%, Agreement Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion) obwohl die Differenz zwischen den beiden Phasen größer ist (Agreement Phase I = 94,14 – 95,20%, Agreement Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. Die Coder annotieren in beiden Phasen also genauer als moot. 
    - Für die einzelnen POS-Kategorien variiert die Genauigkeit zwischen 0% und 100%, wobei moot die höchste mittlere Genauigkeit (Mittelwert = 88,65%) und niedrigste Streuung (Standardabweichung = 17,25) aufweist (TreeTagger = 67,05 ± 28,52, MarMoT = 73,41 ± 27,49, Perceptron = 62,66 ± 31,37). Eine detaillierte Analyse der einzelnen POS-Tag-Kategorien zeigt, dass moot in den meisten, aber nicht allen, POS-Kategorien die besten Ergebnisse erzielt (vgl. Tabelle 1). 
    
-Tabelle 4: Accuracy von moot, dem TreeTagger, MarMoT und Perceptron pro POS-Kategorie
+Table 1: Accuracy  moot, TreeTagger, MarMoT and Perceptron per POS-Category
 
-POS	moot	TreeTagger	MarMoT	Perceptron
-$,	99,47	100	100	100
-$.	99,46	100	100	100
-$(	100	39,06	37,5	32,81
-ADJA	94,5	93	93,5	95
-ADJD	85,37	79,67	78,05	76,42
-ADV	81,2	72,93	75,56	68,42
-APPO	90,48	71,43	80,95	28,57
-APPR	96,31	92,21	90,98	92,21
-APPRART	96,77	96,77	93,55	93,55
-APZR	100	69,57	91,3	73,91
-ART	99,46	98,92	99,46	99,46
-CARD	86,57	88,56	91,54	92,54
-FM	72,73	5,45	45,45	1,82
-FM.xy	100	0	0	0
-ITJ	89,29	57,14	64,29	0
-KOKOM	49,02	72,55	56,86	49,02
-KON	91,53	92,37	90,68	90,68
-KOUI	100	92,59	85,19	96,3
-KOUS	76,56	79,69	71,88	70,31
-NE	75,25	61,87	63,55	87,63
-NN	92,81	93,46	92,32	91,67
-PAV	100	92,31	94,87	84,62
-PDAT	89,36	53,19	51,06	46,81
-PDS	74,42	55,81	65,12	41,86
-PIAT	91,89	89,19	81,08	83,78
-PIDAT	0	0	0	0
-PIS	77,42	72,58	83,87	59,68
-PPER	92,7	83,21	87,59	87,59
-PPOSAT	100	60,34	60,34	63,79
-PPOSS	96,15	26,92	3,85	0
-PRELAT	100	62,5	62,5	66,67
-PRELS	67,9	77,78	61,73	60,49
-PRF	94,44	33,33	33,33	33,33
-PTKA	100	59,09	95,45	40,91
-PTKANT	100	70	100	40
-PTKNEG	100	100	100	100
-PTKVZ	72,34	72,34	70,21	59,57
-PTKZU	97,87	80,85	100	89,36
-PWAT	100	25	100	75
-PWAV	100	77,78	88,89	94,44
-PWS	82,76	68,97	93,1	86,21
-TRUNC	100	100	100	90
-VAFIN	92,11	80,7	79,82	76,32
-VAIMP	95,24	0	0	0
-VAINF	100	71,05	76,32	73,68
-VAPP	100	81,48	85,19	85,19
-VMFIN	81,54	81,54	69,23	69,23
-VMINF	93,75	75	68,75	62,5
-VMPP	100	20,83	95,83	54,17
-VVFIN	87,5	80,68	84,09	80,68
-VVIMP	61,9	28,57	28,57	9,52
-VVINF	98,51	71,64	91,04	64,18
-VVIZU	100	90	86,67	43,33
-VVPP	94,32	78,41	90,91	71,59
-XY	56,6	9,43	45,28	11,32
-
+|      POS      	|     moot    	|    TreeTagger    	|    MarMoT    	|    Perceptron    	|
+|:-------------:	|:-----------:	|:----------------:	|:------------:	|:----------------:	|
+|    $,         	|    99,47    	|    100           	|    100       	|    100           	|
+|    $.         	|    99,46    	|    100           	|    100       	|    100           	|
+|    $(         	|    100      	|    39,06         	|    37,5      	|    32,81         	|
+|    ADJA       	|    94,5     	|    93            	|    93,5      	|    95            	|
+|    ADJD       	|    85,37    	|    79,67         	|    78,05     	|    76,42         	|
+|    ADV        	|    81,2     	|    72,93         	|    75,56     	|    68,42         	|
+|    APPO       	|    90,48    	|    71,43         	|    80,95     	|    28,57         	|
+|    APPR       	|    96,31    	|    92,21         	|    90,98     	|    92,21         	|
+|    APPRART    	|    96,77    	|    96,77         	|    93,55     	|    93,55         	|
+|    APZR       	|    100      	|    69,57         	|    91,3      	|    73,91         	|
+|    ART        	|    99,46    	|    98,92         	|    99,46     	|    99,46         	|
+|    CARD       	|    86,57    	|    88,56         	|    91,54     	|    92,54         	|
+|    FM         	|    72,73    	|    5,45          	|    45,45     	|    1,82          	|
+|    FM.xy      	|    100      	|    0             	|    0         	|    0             	|
+|    ITJ        	|    89,29    	|    57,14         	|    64,29     	|    0             	|
+|    KOKOM      	|    49,02    	|    72,55         	|    56,86     	|    49,02         	|
+|    KON        	|    91,53    	|    92,37         	|    90,68     	|    90,68         	|
+|    KOUI       	|    100      	|    92,59         	|    85,19     	|    96,3          	|
+|    KOUS       	|    76,56    	|    79,69         	|    71,88     	|    70,31         	|
+|    NE        	|    75,25    	|    61,87         	|    63,55     	|    87,63         	|
+|    NN         	|    92,81    	|    93,46         	|    92,32     	|    91,67         	|
+|    PAV       	|    100      	|    92,31    	|    94,87    	|    84,62    	|
+|    PDAT      	|    89,36    	|    53,19    	|    51,06    	|    46,81    	|
+|    PDS       	|    74,42    	|    55,81    	|    65,12    	|    41,86    	|
+|    PIAT      	|    91,89    	|    89,19    	|    81,08    	|    83,78    	|
+|    PIDAT     	|    0        	|    0        	|    0        	|    0        	|
+|    PIS       	|    77,42    	|    72,58    	|    83,87    	|    59,68    	|
+|    PPER      	|    92,7     	|    83,21    	|    87,59    	|    87,59    	|
+|    PPOSAT    	|    100      	|    60,34    	|    60,34    	|    63,79    	|
+|    PPOSS     	|    96,15    	|    26,92    	|    3,85     	|    0        	|
+|    PRELAT    	|    100      	|    62,5     	|    62,5     	|    66,67    	|
+|    PRELS     	|    67,9     	|    77,78    	|    61,73    	|    60,49    	|
+|    PRF       	|    94,44    	|    33,33    	|    33,33    	|    33,33    	|
+|    PTKA      	|    100      	|    59,09    	|    95,45    	|    40,91    	|
+|    PTKANT    	|    100      	|    70       	|    100      	|    40       	|
+|    PTKNEG    	|    100      	|    100      	|    100      	|    100      	|
+|    PTKVZ     	|    72,34    	|    72,34    	|    70,21    	|    59,57    	|
+|    PTKZU     	|    97,87    	|    80,85    	|    100      	|    89,36    	|
+|    PWAT      	|    100      	|    25       	|    100      	|    75       	|
+|    PWAV      	|    100      	|    77,78    	|    88,89    	|    94,44    	|
+|    PWS       	|    82,76    	|    68,97    	|    93,1     	|    86,21    	|
+|    TRUNC     	|    100      	|    100      	|    100      	|    90       	|
+|    VAFIN     	|    92,11    	|    80,7     	|    79,82    	|    76,32    	|
+|    VAIMP     	|    95,24    	|    0        	|    0        	|    0        	|
+|    VAINF     	|    100      	|    71,05    	|    76,32    	|    73,68    	|
+|    VAPP      	|    100      	|    81,48    	|    85,19    	|    85,19    	|
+|    VMFIN     	|    81,54    	|    81,54    	|    69,23    	|    69,23    	|
+|    VMINF     	|    93,75    	|    75       	|    68,75    	|    62,5     	|
+|    VMPP      	|    100      	|    20,83    	|    95,83    	|    54,17    	|
+|    VVFIN     	|    87,5     	|    80,68    	|    84,09    	|    80,68    	|
+|    VVIMP     	|    61,9     	|    28,57    	|    28,57    	|    9,52     	|
+|    VVINF     	|    98,51    	|    71,64    	|    91,04    	|    64,18    	|
+|    VVIZU     	|    100      	|    90       	|    86,67    	|    43,33    	|
+|    VVPP      	|    94,32    	|    78,41    	|    90,91    	|    71,59    	|
+|    XY        	|    56,6     	|    9,43     	|    45,28    	|    11,32    	|
 
 # Identified problems
 
