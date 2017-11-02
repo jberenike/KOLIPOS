@@ -21,7 +21,9 @@ Our general aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goett
 Annotation
 - Final numbers Eval moot 
 - Final numbers reliability tests
-- Other strategies: Die Ergebnisse unseres Taggervergleich deuten zudem für bestimmte Tags auf die Nützlichkeit eines Ensemble-Taggings hin, bei dem verschiedene Algorithmen verschränkt werden (van Halteren et al., 2001). 
+
+eXistDB
+- backend ingest
 
 Style Analysis
 - POS distribution in KOLIMO: z.B. historische Variation und Literarizität 
@@ -35,6 +37,7 @@ Tie up open strands POS-tagging
 - Documentation
    - problem cases by categories
    - addendum to STTS manual
+- [Other strategies: Ensemble-Taggings (van Halteren et al., 2001)]
       
 eXist-data base
 - Backend: Ingest POS-tags
