@@ -21,30 +21,34 @@ Our general aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goett
 Annotation
 - Final numbers Eval moot 
 - Final numbers reliability tests
-- Other strategies Die Ergebnisse unseres Taggervergleich deuten zudem für bestimmte Tags auf die Nützlichkeit eines Ensemble-Taggings hin, bei dem verschiedene Algorithmen verschränkt werden (van Halteren et al., 2001). 
+- Other strategies: Die Ergebnisse unseres Taggervergleich deuten zudem für bestimmte Tags auf die Nützlichkeit eines Ensemble-Taggings hin, bei dem verschiedene Algorithmen verschränkt werden (van Halteren et al., 2001). 
 
 Style Analysis
 - POS distribution in KOLIMO: z.B. historische Variation und Literarizität 
 
-# Topics
+# Possible Topics (Berenike will select depending on participants; please add your comments!)
 
 New manual annotation of GB and TG, based on moot output, including group discussion (possibly)
 
-Tie up open strands
-   - Final Decisions
-   - Documentation
-      - problem cases by categories
-      - addendum to STTS manual
-    - Ingest POS-tags into eXist-data base
-    
+Tie up open strands POS-tagging
+- Final Decisions
+- Documentation
+   - problem cases by categories
+   - addendum to STTS manual
+      
+eXist-data base
+- Backend: Ingest POS-tags
+- (possibly) Frontend: Updates; Collection Browser https://kolimo.uni-goettingen.de/browse.html
+- Documentation
+
 DTA Evaluation  
-    - tagger comparison
-    - coder comparison (reliability tests)
+- tagger comparison
+- coder comparison (reliability tests)
 
 Quantitative text analyses (possibly)
-   - POS distribution in KOLIMO
-    - descriptive analyses & inferential stats
-    - MD analyses
+- POS distribution in KOLIMO
+- descriptive analyses & inferential stats
+- MD analyses
 
 # Background
 - We have a small gold standard ("Referenzstandard") for POS 1800-1930 DTA texts
