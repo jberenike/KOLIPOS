@@ -3,13 +3,16 @@ Hackathon for advancing POS-annotation in KOLIMO
 
 # Date 
 7-8 December 2017
+Thur 9-17
+Fri 9-14
+
 # Place
 Basel; Library Room 216
 
 # TeilnehmerInnen
 Basel: JBH, GL, 
 
-Gö: MP, MW, evtl. FM
+Gö: MP, MW
 
 NN.
    
