@@ -13,11 +13,11 @@ Hackathon for advancing POS-annotation in KOLIMO
 Basel; Library Room 216
 
 # TeilnehmerInnen
-Basel: JBH, GL, 
+Basel: JBH, GL
 
 Gö: MP, MW
 
-NN.
+FAU: TP
    
 # Aims
 Our general aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goettingen.de/ to facilitate multivariate analyses of Literary/Nonliterary Narrative Texts 1800-1930.
