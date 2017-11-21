@@ -13,8 +13,7 @@ Hackathon for advancing POS-annotation in KOLIMO
 Basel; Library Room 216
 
 # TeilnehmerInnen
-Basel: JBH, GL
-
+Basel: JBH, GL, TS
 Gö: MP, MW
 
 FAU: TP
