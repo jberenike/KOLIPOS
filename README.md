@@ -33,7 +33,7 @@ eXistDB
 Style Analysis
 - POS distribution in KOLIMO: z.B. historische Variation und Literarizität 
 
-# Possible Topics (Berenike will select depending on participants; please add your comments!)
+#  Topics 
 
 New manual annotation of GB and TG, based on moot output, including group discussion (possibly)
 
