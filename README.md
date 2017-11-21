@@ -53,11 +53,6 @@ DTA Evaluation
 - tagger comparison
 - coder comparison (reliability tests)
 
-Quantitative text analyses (possibly)
-- POS distribution in KOLIMO
-- descriptive analyses & inferential stats
-- MD analyses
-
 # Background
 - We have a small gold standard ("Referenzstandard") for POS 1800-1930 DTA texts
 - Unsere Ergebnisse zeigen trotz hochqualitativer Tokenisierung und Normalisierung des DTA eine Fehlerrate von ca. 9% an, die allerdings stark nach POS-Tag variiert. 
