@@ -1,0 +1,26 @@
+DTA-Tag	TT-Tag	MM-TAg	Perceptron-Tag	Lemma	newtag	Prefix	Wort	Suffix	Sentence_neighborhood	sentence_index	index	filename
+FM.xy	CARD		CARD	1		Legros , Pierre. B (	1	) , ( 2 ) , ( 3 ) , ( 4 ) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	5	burckhar_cicerone_cicerone.tsv
+FM.xy	CARD		CARD	2		Legros , Pierre. B ( 1 ) , (	2	) , ( 3 ) , ( 4 ) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	9	burckhar_cicerone_cicerone.tsv
+FM.xy	CARD		ADJA	23.		d.	23.	Dez. 78. G .	G .d. 23. Dez. 78. G .Jeder Zweifel von dir erregt ein Erdbeben	3521	1	goethe_brstein1_brstein1.tsv
+FM.xy	CARD		CARD	29		Od. 3 ,	29	, 8 .	Tr. 240 ff. , Schöll Tetral .Od. 3 , 29 , 8 .fr. 269 vgl. Sext. Emp. adv. Math.	748	3	preller_grmyth2_grmyth2.tsv
+FM.xy	CARD		CARD	3		Legros , Pierre. B ( 1 ) , ( 2 ) , (	3	) , ( 4 ) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	13	burckhar_cicerone_cicerone.tsv
+FM.xy	CARD		CARD	3		Od.	3	, 29 , 8 .	Tr. 240 ff. , Schöll Tetral .Od. 3 , 29 , 8 .fr. 269 vgl. Sext. Emp. adv. Math.	748	1	preller_grmyth2_grmyth2.tsv
+FM.xy	CARD		CARD	4		Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , (	4	) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	17	burckhar_cicerone_cicerone.tsv
+FM.xy	CARD		ADJA	78.		d. 23. Dez.	78.	G .	G .d. 23. Dez. 78. G .Jeder Zweifel von dir erregt ein Erdbeben	3521	3	goethe_brstein1_brstein1.tsv
+FM.xy	CARD		CARD	8		Od. 3 , 29 ,	8	.	Tr. 240 ff. , Schöll Tetral .Od. 3 , 29 , 8 .fr. 269 vgl. Sext. Emp. adv. Math.	748	5	preller_grmyth2_grmyth2.tsv
+FM.xy	NE		NN	alles		« « – »' T kümmt	Allens	vör , Dürten .	de Frugenslüd ' verdeuwelt girn liden .« « – »' T kümmt Allens vör , Dürten .– » Na , na !	2880	6	reuter_doerchlt_doerchlt.tsv
+FM.xy	NE		NN	b		Legros , Pierre.	B	( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	3	burckhar_cicerone_cicerone.tsv
+FM.xy	ADV		ART	d.			d.	23. Dez. 78. G .	G .d. 23. Dez. 78. G .Jeder Zweifel von dir erregt ein Erdbeben	3521	0	goethe_brstein1_brstein1.tsv
+FM.xy	NE		PROAV	dan.10/2,3		Daß die Erhitzung und der Zorn im inneren Sinn nur Widerstreite sind , kann aus folgenden Stellen im Wort erhellen :	Dan.10/2,3	: " Daniel habe drei Wochen von Tagen getrauert , das Brot der Begehrlichkeiten nicht essend , noch Wein trinkend , noch sich salbend , bis die drei Wochen von Tagen erfüllt würden " .	Nr. 2723 , 2858 , 2859 .Daß die Erhitzung und der Zorn im inneren Sinn nur Widerstreite sind , kann aus folgenden Stellen im Wort erhellen : Dan.10/2,3 : " Daniel habe drei Wochen von Tagen getrauert , das Brot der Begehrlichkeiten nicht essend , noch Wein trinkend , noch sich salbend , bis die drei Wochen von Tagen erfüllt würden " .Daher Beerscheba , das in der Grundsprache	8843	21	swedborg_mose1_mose1.tsv
+FM.xy	NN		NN	dez.		d. 23.	Dez.	78. G .	G .d. 23. Dez. 78. G .Jeder Zweifel von dir erregt ein Erdbeben	3521	2	goethe_brstein1_brstein1.tsv
+FM.xy	NN		ADJD	dürten		« « – »' T kümmt Allens vör ,	Dürten	.	de Frugenslüd ' verdeuwelt girn liden .« « – »' T kümmt Allens vör , Dürten .– » Na , na !	2880	9	reuter_doerchlt_doerchlt.tsv
+FM.xy	NN		NE	g		d. 23. Dez. 78.	G	.	G .d. 23. Dez. 78. G .Jeder Zweifel von dir erregt ein Erdbeben	3521	4	goethe_brstein1_brstein1.tsv
+FM.xy	VVFIN		VVFIN	kommt		« « – »' T	kümmt	Allens vör , Dürten .	de Frugenslüd ' verdeuwelt girn liden .« « – »' T kümmt Allens vör , Dürten .– » Na , na !	2880	5	reuter_doerchlt_doerchlt.tsv
+FM.xy	NE		NE	legros			Legros	, Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	0	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NE	od.			Od.	3 , 29 , 8 .	Tr. 240 ff. , Schöll Tetral .Od. 3 , 29 , 8 .fr. 269 vgl. Sext. Emp. adv. Math.	748	0	preller_grmyth2_grmyth2.tsv
+FM.xy	NE		NE	pierre.		Legros ,	Pierre.	B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) .	Maestro , A ( 1 ) .Legros , Pierre. B ( 1 ) , ( 2 ) , ( 3 ) , ( 4 ) ., M ( 1 ) .	13894	2	burckhar_cicerone_cicerone.tsv
+FM.xy	NN		NN	ps.107/20			Ps.107/20	: " Sie riefen zu Jehovah , und Er sandte Sein Wort und heilte sie " .	auch die in Versuchungen sich befinden .Ps.107/20 : " Sie riefen zu Jehovah , und Er sandte Sein Wort und heilte sie " .Nachher aber wurde ich selbst hineinversenkt ,	16076	0	swedborg_mose2_mose2.tsv
+FM.xy	NN		NN	s.		VI.	S.	25 .	der englischen Übersetzung von Wilkins kannte .VI. S. 25 .– D. empfing die Krone .	1785	1	herder_adrastea_adrastea.tsv
+FM.xy	NE		NE	t		« « – »'	T	kümmt Allens vör , Dürten .	de Frugenslüd ' verdeuwelt girn liden .« « – »' T kümmt Allens vör , Dürten .– » Na , na !	2880	4	reuter_doerchlt_doerchlt.tsv
+FM.xy	NE		ADJA	vi			VI.	S. 25 .	der englischen Übersetzung von Wilkins kannte .VI. S. 25 .– D. empfing die Krone .	1785	0	herder_adrastea_adrastea.tsv
+FM.xy	VVFIN		NN	vör		« « – »' T kümmt Allens	vör	, Dürten .	de Frugenslüd ' verdeuwelt girn liden .« « – »' T kümmt Allens vör , Dürten .– » Na , na !	2880	7	reuter_doerchlt_doerchlt.tsv

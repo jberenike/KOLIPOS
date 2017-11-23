@@ -1,0 +1,26 @@
+DTA-Tag	TT-Tag	MM-TAg	Perceptron-Tag	Lemma	newtag	Prefix	Wort	Suffix	Sentence_neighborhood	sentence_index	index	filename
+FM.xy	CARD		CARD	1		Belli , B (	1	) .	Domenico , M ( 1 ) .Belli , B ( 1 ) .Bazzi , Giov .	4262	4	burckhar_cicerone_cicerone.tsv
+FM.xy	CARD		CARD	1		Tibaldi , Domen. A (	1	) , ( 2 ) ff. – Pellegr .	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	5	burckhar_cicerone_cicerone.tsv
+FM.xy	CARD		CARD	1		Leipzig , Cranz. Sämtl. Ges. f.	1	Singst. m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	6	lipsius_musistud_musistud.tsv
+FM.xy	CARD		CARD	2		Tibaldi , Domen. A ( 1 ) , (	2	) ff. – Pellegr .	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	9	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NE	a		Tibaldi , Domen.	A	( 1 ) , ( 2 ) ff. – Pellegr .	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	3	burckhar_cicerone_cicerone.tsv
+FM.xy	XY		XY	b		Belli ,	B	( 1 ) .	Domenico , M ( 1 ) .Belli , B ( 1 ) .Bazzi , Giov .	4262	2	burckhar_cicerone_cicerone.tsv
+FM.xy	APPR		APPR	bei			Bei	Luk.24/26 : " Mußte nicht Christus dieses leiden , und eingehen in Seine Herrlichkeit " ; verherrlichen heißt göttlich machen .	10015 .Bei Luk.24/26 : " Mußte nicht Christus dieses leiden , und eingehen in Seine Herrlichkeit " ; verherrlichen heißt göttlich machen .So wie der Daumen , bedeuten auch	24762	0	swedborg_mose2_mose2.tsv
+FM.xy	NE		NE	chiaramonti		( Museo	Chiaramonti	.	schon mit etwas leeren Formen ) .( Museo Chiaramonti .– Sodann werden mehrere göttliche Wesen überhaupt	4642	2	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NE	cranz.		Leipzig ,	Cranz.	Sämtl. Ges. f. 1 Singst. m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	2	lipsius_musistud_musistud.tsv
+FM.xy	NE		NN	domen.		Tibaldi ,	Domen.	A ( 1 ) , ( 2 ) ff. – Pellegr .	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	2	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NE	epistol		Vallarsius II. –	epistol	.	Gesellsch. der Wissensch. II. Leipzig 1850 .Vallarsius II. – epistol .Derselbe sagt an dieser Stelle weiter nichts	8582	3	dahn_voelker_voelker.tsv
+FM.xy	VVFIN		VVFIN	f.		Leipzig , Cranz. Sämtl. Ges.	f.	1 Singst. m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	5	lipsius_musistud_musistud.tsv
+FM.xy	VVFIN		VVFIN	ff.		Tibaldi , Domen. A ( 1 ) , ( 2 )	ff.	– Pellegr .	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	11	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NN	ges.		Leipzig , Cranz. Sämtl.	Ges.	f. 1 Singst. m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	4	lipsius_musistud_musistud.tsv
+FM.xy	NE		NE	ii.		Vallarsius	II.	– epistol .	Gesellsch. der Wissensch. II. Leipzig 1850 .Vallarsius II. – epistol .Derselbe sagt an dieser Stelle weiter nichts	8582	1	dahn_voelker_voelker.tsv
+FM.xy	NE		NE	leipzig			Leipzig	, Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	0	lipsius_musistud_musistud.tsv
+FM.xy	NE		NE	luk.24/26		Bei	Luk.24/26	: " Mußte nicht Christus dieses leiden , und eingehen in Seine Herrlichkeit " ; verherrlichen heißt göttlich machen .	10015 .Bei Luk.24/26 : " Mußte nicht Christus dieses leiden , und eingehen in Seine Herrlichkeit " ; verherrlichen heißt göttlich machen .So wie der Daumen , bedeuten auch	24762	1	swedborg_mose2_mose2.tsv
+FM.xy	APPR		APPR	m.		Leipzig , Cranz. Sämtl. Ges. f. 1 Singst.	m.	Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	8	lipsius_musistud_musistud.tsv
+FM.xy	NE		NE	museum		(	Museo	Chiaramonti .	schon mit etwas leeren Formen ) .( Museo Chiaramonti .– Sodann werden mehrere göttliche Wesen überhaupt	4642	1	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NE	pellegr		Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. –	Pellegr	.	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	13	burckhar_cicerone_cicerone.tsv
+FM.xy	NN		NN	pfte		Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m.	Pfte	.	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	9	lipsius_musistud_musistud.tsv
+FM.xy	NN		NN	singst.		Leipzig , Cranz. Sämtl. Ges. f. 1	Singst.	m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	7	lipsius_musistud_musistud.tsv
+FM.xy	NE		NE	sämtl.		Leipzig , Cranz.	Sämtl.	Ges. f. 1 Singst. m. Pfte .	( Bischoff ) Leipzig , Hansen .Leipzig , Cranz. Sämtl. Ges. f. 1 Singst. m. Pfte .Ausgew. Klav.-Komp .	2691	3	lipsius_musistud_musistud.tsv
+FM.xy	NE		NE	tibaldi			Tibaldi	, Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .	Teudon , B ( 1 ) .Tibaldi , Domen. A ( 1 ) , ( 2 ) ff. – Pellegr .Testa , D ( 1 ) .	3787	0	burckhar_cicerone_cicerone.tsv
+FM.xy	NE		NE	vallarsius			Vallarsius	II. – epistol .	Gesellsch. der Wissensch. II. Leipzig 1850 .Vallarsius II. – epistol .Derselbe sagt an dieser Stelle weiter nichts	8582	0	dahn_voelker_voelker.tsv
