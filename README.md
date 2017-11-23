@@ -41,6 +41,7 @@ Tie up open strands POS-tagging
 - Final Decisions
 - Documentation
    - problem cases by categories
+      - approximately 40 cases 
    - addendum to STTS manual
 - [Other strategies: Ensemble-Taggings (van Halteren et al., 2001)]
       
@@ -71,6 +72,8 @@ DTA Evaluation
    
 # bisherige Ergebnisse
    - basieren für Phase I auf den finalen Annotationen / für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation
+      - Phase I: 22 Tabellen mit 3.635 Tokens
+      - Phase II: 55 von 220 Tabellen/5500 von 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie. (Der Rest kann erst nach Besprechen der ca. 40 Porblemfälle nachgereicht werden)
    - für moot verglichen mit dem Referenzstandard: Gesamtgenauigkeit von 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%).
    - niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants, 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche erhobenen 91,6%. 
    - Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt (Agreement Phase I = 95,47 – 98,13%, Agreement Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion) obwohl die Differenz zwischen den beiden Phasen größer ist (Agreement Phase I = 94,14 – 95,20%, Agreement Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. Die Coder annotieren in beiden Phasen also genauer als moot. 
