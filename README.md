@@ -14,7 +14,7 @@ Basel; Library Room 216
 
 # TeilnehmerInnen
 Basel: JBH, GL, TS
-Gö: MP, MW
+Gö: MP, MW, HV
 
 FAU: TP
    
