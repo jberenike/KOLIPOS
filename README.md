@@ -4,16 +4,19 @@ Hackathon for advancing POS-annotation in KOLIMO
 # Date 
 7-8 December 2017
 
-   Thur 9-17
+   Thur 8 early birds: @mwess @markuspaluch @hanna @jberenike groceries
+
+   Thur 9-17 Hackathon I
    
-   Fri 9-14
+   Fri 9-14 Hackathon II
 
 
 # Place
 Basel; Library Room 216
 
 # TeilnehmerInnen
-Basel: JBH, GL, TS
+Basel: JBH, GL, TS, and students from "Textanalyse mit R"
+
 Gö: MP, MW, HV
 
 FAU: TP
@@ -30,6 +33,10 @@ Annotation
 eXistDB
 - backend ingest
 
+Open Corpus Workbench
+- ingest data
+- run analyses
+
 Style Analysis
 - POS distribution in KOLIMO: z.B. historische Variation und Literarizität 
 
@@ -41,9 +48,8 @@ Tie up open strands POS-tagging
 - Final Decisions
 - Documentation
    - problem cases by categories
-      - approximately 40 cases 
+      - approximately 40 cases (=Tags)
    - addendum to STTS manual
-- [Other strategies: Ensemble-Taggings (van Halteren et al., 2001)]
       
 eXist-data base
 - Backend: Ingest POS-tags
@@ -70,10 +76,15 @@ DTA Evaluation
    - In Phase II wurden dieselben Coder, Tagger und dieselbe Software eingesetzt, ebenso wie die in Phase 1 erarbeiteten Tagging-Guidelines. Anders als in der ersten Phase wurden jedoch nicht ganze Sätze, sondern jeweils einhundert Token pro POS-Kategorie aus dem DTA extrahiert. Dadurch wurde eine Ungleichverteilung der einzelnen POS-Kategorien, welche in natürlichen Sätzen gegeben ist (vgl. Evert, 2006, Kilgarriff, 2005), vermieden. __Für fünfundfünfzig POS-Kategorien des STTS wurden jeweils n=100 Wort/Token-POS-Paare sortiert nach STTS-Tag annotiert. Dies entspricht einer Grundgesamtheit von N=5.500 Tokens. Jedes Token wurde von zwei Codern unabhängig annotiert.__
    - Phase III: Diskussionsphase --> hier wurden die strittigen Fälle besprochen und finale Annotationen erarbeitet. Zu diesem Zweck wurden Statistiken für die Tags (über Coder und Tagger) analysiert und Nichtübereinstimmung der vergebenen Tags identifiziert. Für die statistische Evaluation wurde die Interrater-Reliabilität als Agreement und Cohen‘s Kappa berechnet (Package „irr“ in R Version 3.3). Darüber hinaus wurde für die Phase I ein Fleiss’-Kappa für die Coder berechnet (dies steht für Phase 2 noch aus).
    
+# Ziel
+- Evaluation aller handgetaggten Daten (inges. 242 Tabellen)
+   - final annos für 55 plus 138 von 220 Tabellen = 198 von 220 Tabellen liegen bereits vor, sind aber noch nicht in Statistik drin.
+   - final annos für ca. 40 Problemfälle aus Phase II ( = 22 Tabellen von 220 Tabellen aus Phase II).
+   
 # bisherige Ergebnisse
-   - basieren für Phase I auf den finalen Annotationen / für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation
-      - Phase I: 22 Tabellen mit 3.635 Tokens
-      - Phase II: 55 von 220 Tabellen/5500 von 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie. (Der Rest kann erst nach Besprechen der ca. 40 Porblemfälle nachgereicht werden)
+   - Evaluation basiert für Phase I auf den finalen Annotationen / für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation
+      - Phase I: 22 Tabellen mit 3.635 Tokens (sind bereits in Evaluation eingegangen)
+      - Phase II: 55 von 220 Tabellen/ n= 5500 von n = 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie ist bereits in Eval. eingegangen)
    - für moot verglichen mit dem Referenzstandard: Gesamtgenauigkeit von 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%).
    - niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants, 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche erhobenen 91,6%. 
    - Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt (Agreement Phase I = 95,47 – 98,13%, Agreement Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion) obwohl die Differenz zwischen den beiden Phasen größer ist (Agreement Phase I = 94,14 – 95,20%, Agreement Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. Die Coder annotieren in beiden Phasen also genauer als moot. 
