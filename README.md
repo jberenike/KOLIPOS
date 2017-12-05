@@ -33,6 +33,10 @@ Annotation
 eXistDB
 - backend ingest
 
+Open Corpus Workbench
+- ingest data
+- run analyses
+
 Style Analysis
 - POS distribution in KOLIMO: z.B. historische Variation und Literarizität 
 
