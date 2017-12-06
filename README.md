@@ -1,37 +1,34 @@
 ## KOLIPOS
-Hackathon for advancing POS-annotation in KOLIMO (and general 
+Hackathon for advancing POS-annotation in KOLIMO, the Corpus of Literary Modernism. Hosted by DH Lab Basel http://dhlab.unibas.ch/ (supported by University Library Basel)
 
 # Participants
-Postdoc hackers: Berenike Herrmann (Basel), Thosten Proisl (Erlangen), Tobias Schweizer (Basel)
+Postdoc hackers: Berenike Herrmann (Basel), Thomas Proisl (Erlangen), Tobias Schweizer (Basel)
 
 Remote eXist-support: Mathias Göbel (Göttingen)
 
 Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varachkina (Göttingen) & participants of course "Textanalyse mit R" (Basel)
 
-# Date 
+# Schedule 
 7-8 December 2017
 
-   Thur 8 early birds get groceries
+   Thur 7 Dec
+   8.00 early birds get groceries
 
-   Thur 9-17 Hackathon I
+   9.00-17.00 Hackathon I
       - intro: pos gold standard and eXist-db
-      - group I
-         finalize annotation open cases
-         document procedure 
-         document problematic cases
-         
-      - group II
-         prepare tcf ingest
-         eXist-db: ingest meta data and open ends
-         document meta data
+      - group I: pos-tagging
+      - group II: eXist-db
  
+   18.00 Dinner @Mandir
    
-   Fri 9-14 Hackathon II
+   Fri 8 Dec
+   9.00-14.00 Hackathon II
       - group I
+         
       - group II
 
 # Place
-Basel; Library Room 216
+University Library Basel;Room 218 (Schulungssaal 2. OG)
 
    
 # Aims
@@ -42,10 +39,13 @@ Our chief aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goettin
 Annotation
 - Final numbers evaluation moot 
 - Final numbers reliability tests
+- Documentation
 
 eXistDB
 - backend ingest POS
-- metadata: author gender; 
+- metadata: author gender; data structure
+- data export --> API
+- documentation
 
 Open Corpus Workbench
 - ingest data
@@ -54,25 +54,28 @@ Open Corpus Workbench
 
 #  Topics 
 
-New manual annotation of GB and TG, based on moot output, including group discussion (possibly)
-
 Tie up open strands POS-tagging
 - Final Decisions
 - Documentation
-   - problem cases by categories
-      - approximately 40 cases (=Tags)
+   - problem cases by categories (approximately 40 cases=Tags)
    - addendum to STTS manual
-      
-eXist-data base
-- Backend: Ingest POS-tags
-- (possibly) Frontend: Updates; Collection Browser https://kolimo.uni-goettingen.de/browse.html
-- Documentation
-
+   - document procedure
+  
 DTA Evaluation  
 - tagger comparison
 - coder comparison (reliability tests)
+      
+eXist-db
+- Back end: 
+   - Prepare Ingest POS-tags (prepare tcf ingest)
+   - ingest meta data 
+   - tie up open ends (gender; dublicate xml elements)
+- Documentation: document meta data (within headers), scripts, database structure
+- prepare data export
+- (possibly) front end: Updates; Collection Browser https://kolimo.uni-goettingen.de/browse.html
 
-# Background
+
+# Background POS Tagging
 - We have a small gold standard ("Referenzstandard") for POS 1800-1930 DTA texts
 - Unsere Ergebnisse zeigen trotz hochqualitativer Tokenisierung und Normalisierung des DTA eine Fehlerrate von ca. 9% an, die allerdings stark nach POS-Tag variiert. 
 - Die Grundgesamtheit der aus dem DTA entnommenen Stichprobe umfasste N= 64 924 458 Tokens, die der händisch annotierten Tokens umfasste n= 9 065 Tokens/POS-Tags, also 0.014% 
@@ -84,23 +87,34 @@ DTA Evaluation
 - Tagset des STTS (Schiller et al., 1999) 
 - Wo angezeigt, wurden im Projekt zusätzliche Regeln für der Handhabung des STTS-Manuals vereinbart und dokumentiert. Hierzu gehört auch u.a. die systematische Einbindung eines korpusbasierten Wörterbuchs (http://www.duden.de/) bei Eigennamen und Fremdwörtern.
 - Das Tagging wurde in drei Phasen durchgeführt. Primäres Ziel des Taggings war es, die Genauigkeit von moot auf der genannten Stichprobe gegen manuelles und automatisches Tagging (TT, MarMot, Perceptron) zu evaluieren. 
-   - Die Phase I diente neben der Erarbeitung und Ergänzung des Tagging-Manuals und dem Einarbeiten der Coder einer ersten quantitativen und qualitativen Analyse des moot-Taggings. __Die untersuchte Stichprobe umfasste N=100 randomisiert extrahierte Sätze (N=3.635 Tokens). Jedes Token wurde bezüglich des zugewiesenen POS-Tag durch alle Coder unabhängig überprüft und ggf. korrigiert.__
+   - Die Phase I diente neben der Erarbeitung und Ergänzung des Tagging-Manuals und dem Einarbeiten der Coder einer ersten quantitativen und qualitativen Analyse des moot-Taggings. __Die untersuchte Stichprobe umfasste N=100 randomisiert extrahierte Sätze (N = 3.635 Tokens). Jedes Token wurde bezüglich des zugewiesenen POS-Tag durch alle Coder unabhängig überprüft und ggf. korrigiert.__
    - In Phase II wurden dieselben Coder, Tagger und dieselbe Software eingesetzt, ebenso wie die in Phase 1 erarbeiteten Tagging-Guidelines. Anders als in der ersten Phase wurden jedoch nicht ganze Sätze, sondern jeweils einhundert Token pro POS-Kategorie aus dem DTA extrahiert. Dadurch wurde eine Ungleichverteilung der einzelnen POS-Kategorien, welche in natürlichen Sätzen gegeben ist (vgl. Evert, 2006, Kilgarriff, 2005), vermieden. __Für fünfundfünfzig POS-Kategorien des STTS wurden jeweils n=100 Wort/Token-POS-Paare sortiert nach STTS-Tag annotiert. Dies entspricht einer Grundgesamtheit von N=5.500 Tokens. Jedes Token wurde von zwei Codern unabhängig annotiert.__
    - Phase III: Diskussionsphase --> hier wurden die strittigen Fälle besprochen und finale Annotationen erarbeitet. Zu diesem Zweck wurden Statistiken für die Tags (über Coder und Tagger) analysiert und Nichtübereinstimmung der vergebenen Tags identifiziert. Für die statistische Evaluation wurde die Interrater-Reliabilität als Agreement und Cohen‘s Kappa berechnet (Package „irr“ in R Version 3.3). Darüber hinaus wurde für die Phase I ein Fleiss’-Kappa für die Coder berechnet (dies steht für Phase 2 noch aus).
    
-# Ziel
-- Evaluation aller handgetaggten Daten (inges. 242 Tabellen)
-   - final annos für 55 plus 138 von 220 Tabellen = 198 von 220 Tabellen liegen bereits vor, sind aber noch nicht in Statistik drin.
-   - final annos für ca. 40 Problemfälle aus Phase II ( = 22 Tabellen von 220 Tabellen aus Phase II).
+# Goal
+- Evaluation aller handgetaggten Daten (total of 242 tables)
+   - we have final annos for 22 tables from Phase I 
+   - we have final annos for 55 plus 138 out of 220 tables = 198 out of 220 tables from Phase II. Those are not yet covered by the stats!       
+   - to do: final annos for ca. 40 problematic cases from Phase II ( = 22 Tabellen out of 220 Tabellen from Phase II).
+   - to do: run final stats over 242 tabels
    
-# bisherige Ergebnisse
+# Results so far
    - Evaluation basiert für Phase I auf den finalen Annotationen / für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation
       - Phase I: 22 Tabellen mit 3.635 Tokens (sind bereits in Evaluation eingegangen)
       - Phase II: 55 von 220 Tabellen/ n= 5500 von n = 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie ist bereits in Eval. eingegangen)
-   - für moot verglichen mit dem Referenzstandard: Gesamtgenauigkeit von 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%).
+   - __moot compared to our gold standard: total accuracy 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%).__
+      - Q: see Table 1 --> what about cases such as FM.xy or VAIMP?
    - niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants, 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche erhobenen 91,6%. 
-   - Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt (Agreement Phase I = 95,47 – 98,13%, Agreement Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion) obwohl die Differenz zwischen den beiden Phasen größer ist (Agreement Phase I = 94,14 – 95,20%, Agreement Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. Die Coder annotieren in beiden Phasen also genauer als moot. 
-   - Für die einzelnen POS-Kategorien variiert die Genauigkeit zwischen 0% und 100%, wobei moot die höchste mittlere Genauigkeit (Mittelwert = 88,65%) und niedrigste Streuung (Standardabweichung = 17,25) aufweist (TreeTagger = 67,05 ± 28,52, MarMoT = 73,41 ± 27,49, Perceptron = 62,66 ± 31,37). Eine detaillierte Analyse der einzelnen POS-Tag-Kategorien zeigt, dass moot in den meisten, aber nicht allen, POS-Kategorien die besten Ergebnisse erzielt (vgl. Tabelle 1). 
+   - Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt
+      - Agreement Phase I = 95,47 – 98,13%, Agreement Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). 
+   - Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion), obwohl die Differenz zwischen den beiden Phasen größer ist: 
+      - Agreement Phase I = 94,14 – 95,20%, Agreement Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). 
+      - Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. 
+      - Die Coder annotieren in beiden Phasen also genauer als moot. 
+   - Für die einzelnen POS-Kategorien variiert die Genauigkeit zwischen 0% und 100%
+      - moot weist die höchste mittlere Genauigkeit (Mittelwert = 88,65%) und niedrigste Streuung (Standardabweichung = 17,25) auf
+      - TreeTagger = 67,05% ± 28,52, MarMoT = 73,41% ± 27,49, Perceptron = 62,66% ± 31,37.
+      - Eine detaillierte Analyse der einzelnen POS-Tag-Kategorien zeigt, dass moot in den meisten, aber nicht allen, POS-Kategorien die besten Ergebnisse erzielt (vgl. Tabelle 1). 
    
 Table 1: Accuracy  moot, TreeTagger, MarMoT and Perceptron per POS-Category [preliminary findings: Phase I and half of Phase II = 9 065 Tokens]
 
