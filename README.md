@@ -1,44 +1,56 @@
 ## KOLIPOS
-Hackathon for advancing POS-annotation in KOLIMO
+Hackathon for advancing POS-annotation in KOLIMO (and general 
+
+# Participants
+Postdoc hackers: Berenike Herrmann (Basel), Thosten Proisl (Erlangen), Tobias Schweizer (Basel)
+
+Remote eXist-support: Mathias Göbel (Göttingen)
+
+Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varachkina (Göttingen) & participants of course "Textanalyse mit R" (Basel)
 
 # Date 
 7-8 December 2017
 
-   Thur 8 early birds: @mwess @markuspaluch @hanna @jberenike groceries
+   Thur 8 early birds get groceries
 
    Thur 9-17 Hackathon I
+      - intro: pos gold standard and eXist-db
+      - group I
+         finalize annotation open cases
+         document procedure 
+         document problematic cases
+         
+      - group II
+         prepare tcf ingest
+         eXist-db: ingest meta data and open ends
+         document meta data
+ 
    
    Fri 9-14 Hackathon II
-
+      - group I
+      - group II
 
 # Place
 Basel; Library Room 216
 
-# TeilnehmerInnen
-Basel: JBH, GL, TS, and students from "Textanalyse mit R"
-
-Gö: MP, MW, HV
-
-FAU: TP
    
 # Aims
-Our general aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goettingen.de/ to facilitate multivariate analyses of Literary/Nonliterary Narrative Texts 1800-1930.
+Our chief aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goettingen.de/. As KOLIMO was built for multivariate analyses of Literary/Nonliterary Narrative Texts 1800-1930, we will also solve a few other issues (metadata, database structure).
 
 [For background and first results see below]
 
 Annotation
-- Final numbers Eval moot 
+- Final numbers evaluation moot 
 - Final numbers reliability tests
 
 eXistDB
-- backend ingest
+- backend ingest POS
+- metadata: author gender; 
 
 Open Corpus Workbench
 - ingest data
 - run analyses
 
-Style Analysis
-- POS distribution in KOLIMO: z.B. historische Variation und Literarizität 
 
 #  Topics 
 
