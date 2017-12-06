@@ -11,21 +11,26 @@ Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varac
 ## Schedule 
 7-8 December 2017
 
-   Thur 7 Dec
+   *Thur 7 Dec*
+   
    8.00 early birds get groceries
 
-   9.00-17.00 Hackathon I
-      - intro: pos gold standard and eXist-db
-      - group I: pos-tagging
-      - group II: eXist-db
+   9.00-17.00 DAY I
+   - intro: pos gold standard and eXist-db
+   
+   - group I: pos-tagging
+   
+   - group II: eXist-db
  
    18.00 Dinner @Mandir
    
-   Fri 8 Dec
-   9.00-14.00 Hackathon II
-      - group I
-         
-      - group II
+   *Fri 8 Dec*
+   
+   9.00-14.00 DAY II
+   
+   - group I
+   
+   - group II
 
 # Place
 University Library Basel;Room 218 (Schulungssaal 2. OG)
