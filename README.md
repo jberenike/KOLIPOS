@@ -1,14 +1,14 @@
-## KOLIPOS
+# KOLIPOS
 Hackathon for advancing POS-annotation in KOLIMO, the Corpus of Literary Modernism. Hosted by DH Lab Basel http://dhlab.unibas.ch/ (supported by University Library Basel)
 
-# Participants
+## Participants
 Postdoc hackers: Berenike Herrmann (Basel), Thomas Proisl (Erlangen), Tobias Schweizer (Basel)
 
 Remote eXist-support: Mathias Göbel (Göttingen)
 
 Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varachkina (Göttingen) & participants of course "Textanalyse mit R" (Basel)
 
-# Schedule 
+## Schedule 
 7-8 December 2017
 
    Thur 7 Dec
@@ -34,7 +34,7 @@ University Library Basel;Room 218 (Schulungssaal 2. OG)
 # Aims
 Our chief aim is to to advance POS annotion in KOLIMO https://kolimo.uni-goettingen.de/. As KOLIMO was built for multivariate analyses of Literary/Nonliterary Narrative Texts 1800-1930, we will also solve a few other issues (metadata, database structure).
 
-[For background and first results see below]
+[For background, first results, and more detailed aims see below]
 
 Annotation
 - Final numbers evaluation moot 
@@ -52,7 +52,7 @@ Open Corpus Workbench
 - run analyses
 
 
-#  Topics 
+##  Topics 
 
 Tie up open strands POS-tagging
 - Final Decisions
@@ -75,7 +75,7 @@ eXist-db
 - (possibly) front end: Updates; Collection Browser https://kolimo.uni-goettingen.de/browse.html
 
 
-# Background POS Tagging
+## Background POS Tagging
 - We have a small gold standard ("Referenzstandard") for POS 1800-1930 DTA texts
 - Unsere Ergebnisse zeigen trotz hochqualitativer Tokenisierung und Normalisierung des DTA eine Fehlerrate von ca. 9% an, die allerdings stark nach POS-Tag variiert. 
 - Die Grundgesamtheit der aus dem DTA entnommenen Stichprobe umfasste N= 64 924 458 Tokens, die der händisch annotierten Tokens umfasste n= 9 065 Tokens/POS-Tags, also 0.014% 
@@ -91,14 +91,14 @@ eXist-db
    - In Phase II wurden dieselben Coder, Tagger und dieselbe Software eingesetzt, ebenso wie die in Phase 1 erarbeiteten Tagging-Guidelines. Anders als in der ersten Phase wurden jedoch nicht ganze Sätze, sondern jeweils einhundert Token pro POS-Kategorie aus dem DTA extrahiert. Dadurch wurde eine Ungleichverteilung der einzelnen POS-Kategorien, welche in natürlichen Sätzen gegeben ist (vgl. Evert, 2006, Kilgarriff, 2005), vermieden. __Für fünfundfünfzig POS-Kategorien des STTS wurden jeweils n=100 Wort/Token-POS-Paare sortiert nach STTS-Tag annotiert. Dies entspricht einer Grundgesamtheit von N=5.500 Tokens. Jedes Token wurde von zwei Codern unabhängig annotiert.__
    - Phase III: Diskussionsphase --> hier wurden die strittigen Fälle besprochen und finale Annotationen erarbeitet. Zu diesem Zweck wurden Statistiken für die Tags (über Coder und Tagger) analysiert und Nichtübereinstimmung der vergebenen Tags identifiziert. Für die statistische Evaluation wurde die Interrater-Reliabilität als Agreement und Cohen‘s Kappa berechnet (Package „irr“ in R Version 3.3). Darüber hinaus wurde für die Phase I ein Fleiss’-Kappa für die Coder berechnet (dies steht für Phase 2 noch aus).
    
-# Goal
-- Evaluation aller handgetaggten Daten (total of 242 tables)
+## Goal POS Tagging
+- Evaluation of all hand-annotated data (total of 242 tables)
    - we have final annos for 22 tables from Phase I 
    - we have final annos for 55 plus 138 out of 220 tables = 198 out of 220 tables from Phase II. Those are not yet covered by the stats!       
    - to do: final annos for ca. 40 problematic cases from Phase II ( = 22 Tabellen out of 220 Tabellen from Phase II).
    - to do: run final stats over 242 tabels
    
-# Results so far
+## Results POS Tagging so far
    - Evaluation basiert für Phase I auf den finalen Annotationen / für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation
       - Phase I: 22 Tabellen mit 3.635 Tokens (sind bereits in Evaluation eingegangen)
       - Phase II: 55 von 220 Tabellen/ n= 5500 von n = 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie ist bereits in Eval. eingegangen)
@@ -176,16 +176,16 @@ Table 1: Accuracy  moot, TreeTagger, MarMoT and Perceptron per POS-Category [pre
 |    VVPP      	|    94,32    	|    78,41    	|    90,91    	|    71,59    	|
 |    XY        	|    56,6     	|    9,43     	|    45,28    	|    11,32    	|
 
-# Identified problems
+## Identified problems POS Tagging
 
-Taggers (z.B. bei Abkürzungen, Relativpronomen). 
+- Taggers (z.B. bei Abkürzungen, Relativpronomen). 
 
-STTS-Guideline nicht präzise genug (z.B. bei Vergleichspartikeln, Possessivpronomen, Indefinitpronomina). 
+- STTS-Guideline nicht präzise genug (z.B. bei Vergleichspartikeln, Possessivpronomen, Indefinitpronomina). 
 
-Dabei war die Analyse der Disagreements eine produktive Heuristik, um (computer-)linguistisch und literarturwissenschaftlich interessante Fälle aufzuwerfen. So scheint gerade in literarischen Fällen eine Ambiguität (etwa zwischen Adjektiv und Verb bei Partizipien) geradezu intentional. Ähnlich und in „Bravo! Warum denn nicht? Bravo! Und wieder Bravo!“ (Kafka, Der Prozess), welches als Konjunktion, aber auch als Diskurspartikel interpretiert werden kann.
+- Dabei war die Analyse der Disagreements eine produktive Heuristik, um (computer-)linguistisch und literarturwissenschaftlich interessante Fälle aufzuwerfen. So scheint gerade in literarischen Fällen eine Ambiguität (etwa zwischen Adjektiv und Verb bei Partizipien) geradezu intentional. Ähnlich und in „Bravo! Warum denn nicht? Bravo! Und wieder Bravo!“ (Kafka, Der Prozess), welches als Konjunktion, aber auch als Diskurspartikel interpretiert werden kann.
 
 
-# Literature
+## Literature
 
 Biber, D., & Conrad, S. (2009). Register, genre, and style. Cambridge: Cambridge University Press.
 
