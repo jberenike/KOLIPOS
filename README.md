@@ -6,7 +6,7 @@ Postdoc hackers: Berenike Herrmann (Basel), Thomas Proisl (Erlangen), Tobias Sch
 
 Remote eXist-support: Mathias Göbel (Göttingen)
 
-Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varachkina (Göttingen) & participants of course "Textanalyse mit R" (Basel)
+Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varachkina (Göttingen) & Andjelka Antonijevic (Basel) Henrike Hoffmann (Basel)
 
 ## Schedule 
 7-8 December 2017
@@ -28,14 +28,15 @@ Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varac
    
    9.00-14.00 DAY II
    
-   - group I
+   - group I: stats, wrap up data, documentation
    
-   - group II
+   - group II: prepare ingest tcf; API; format transformation annotations; correct metadata; confirm GNDs; (poss. dedublication and cleaning)
+   
 
 # Place
 Thur: University Basel; Kollegienhaus - Sitzungszimmer 206
 
-Fri: University Library Basel; Room 218 (Schulungssaal 2. OG)
+Fri: University Library Basel; Room 217 (Schulungssaal 2. OG)
 
    
 # Aims
