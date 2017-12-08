@@ -36,7 +36,7 @@ Student hackers: Markus Paluch (Göttingen), Maxi Weß (Göttingen), Hanna Varac
 # Place
 Thur: University Basel; Kollegienhaus - Sitzungszimmer 206
 
-Fri: University Library Basel; Room 217 (Schulungssaal 2. OG)
+Fri: University Library Basel; Room 118 (Vortragssaal 1. OG)
 
    
 # Aims
