@@ -101,22 +101,22 @@ eXist-db
    
 ## Goal POS Tagging
 - Evaluation of all hand-annotated data (total of 242 tables)
-   - we have final annos for 22 tables from Phase I 
-   - we have final annos for 55 plus 138 out of 220 tables = 198 out of 220 tables from Phase II. Those are not yet covered by the stats!       
-   - to do: final annos for ca. 40 problematic cases from Phase II ( = 22 Tabellen out of 220 Tabellen from Phase II).
-   - to do: run final stats over 242 tabels
+   - Phase I: finally annotated 22 tables (w/ ca. 165 tokens each;  tables by sentences)
+   - Phase II: comprises 220 tables (w/ ca. 25 tokens each; teables by tags; each tag gets 4 tables). Before kolipos, we have final annos for 198 tables, with a rest of 22 tables pending final verdicts.       
+   - to do: final annos for 22 tables, containing ca. 40 problematic tags (from Phase II)
+   - to do: run final stats over 242 tables (Phase I and II combined)
    
 ## Results POS Tagging so far
    - Evaluation basiert für Phase I auf den finalen Annotationen / für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation
       - Phase I: 22 Tabellen mit 3.635 Tokens (sind bereits in Evaluation eingegangen)
-      - Phase II: 55 von 220 Tabellen/ n= 5500 von n = 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie ist bereits in Eval. eingegangen)
+      - ????? Phase II: 55 von 220 Tabellen/ n= 5500 von n = 22000 Tokens. D.h. eine Tabelle/100 Tokens von jeder POS-Kategorie ist bereits in Eval. eingegangen)?????
    - __moot compared to our gold standard: total accuracy 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%).__
       - Q: see Table 1 --> what about cases such as FM.xy or VAIMP?
-   - niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants, 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche erhobenen 91,6%. 
-   - Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt
-      - Agreement Phase I = 95,47 – 98,13%, Agreement Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). 
+   - Niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants, 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche geschätzten 91,6%. 
+   - Die Übereinstimmung zwischen Codern (vor der Diskussion) und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt
+      - Agreement Phase I = 95,47% – 98,13%, Agreement Phase II = 95,56% – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96. 
    - Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion), obwohl die Differenz zwischen den beiden Phasen größer ist: 
-      - Agreement Phase I = 94,14 – 95,20%, Agreement Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). 
+      - Agreement Phase I = 94,14% – 95,20%, Agreement Phase II = 89,45% – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92. 
       - Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. 
       - Die Coder annotieren in beiden Phasen also genauer als moot. 
    - Für die einzelnen POS-Kategorien variiert die Genauigkeit zwischen 0% und 100%
