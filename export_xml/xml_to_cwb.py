@@ -15,7 +15,7 @@ def arguments():
 def parse_file(filename):
     tree = xml.etree.ElementTree.parse(filename)
     root = tree.getroot()
-    print(root.findall("*"))
+    # print(root.findall("*"))
     corpus = root.find("{http://www.dspin.de/data/textcorpus}TextCorpus")
     language = corpus.attrib["lang"]
     tokens = {}
@@ -30,7 +30,7 @@ def parse_file(filename):
     pos_tags = {}
     for pos_tag in corpus.findall("{http://www.dspin.de/data/textcorpus}POStags/{http://www.dspin.de/data/textcorpus}tag"):
         pos_tags[pos_tag.attrib["tokenIDs"]] = pos_tag.text
-    print(pos_tags)
+    # print(pos_tags)
     corrections = {}
     for correction in corpus.findall("{http://www.dspin.de/data/textcorpus}orthography/{http://www.dspin.de/data/textcorpus}correction"):
         corrections[correction.attrib["tokenIDs"]] = correction.text
