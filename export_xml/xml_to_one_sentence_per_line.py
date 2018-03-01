@@ -35,7 +35,7 @@ def main():
     tokens, sentences, corrections = parse_file(args.TCF)
     if args.corrected:
         for sentence_id, token_ids in sentences:
-            print(" ".join((corrections.get(tid, tokens[tid]) for tid in token_ids)))
+            print(" ".join(t for t in (corrections.get(tid, tokens[tid]) for tid in token_ids) if t is not None))
     else:
         for sentence_id, token_ids in sentences:
             print(" ".join((tokens[tid] for tid in token_ids)))
